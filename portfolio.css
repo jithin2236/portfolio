@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background:white;
+  color:black;
+}
+
+section {
+  padding: 60px 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background:white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text .highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.about h2, .skills h2, .education h2, .projects h2, .contact h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin-bottom: 8px;
+}
+
+.skills {
+  background: white;
+  text-align: center;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill {
+  background: red;
+  color:white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.education {
+  background: white;
+}
+
+.edu-card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-left: 4px solid red;
+  border-right:4px solid red;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+.projects .project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+.contact {
+  text-align: center;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact li {
+  margin: 8px 0;
+}
