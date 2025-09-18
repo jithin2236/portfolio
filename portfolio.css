@@ -8,17 +8,18 @@ body {
 }
 
 section {
-  padding: 60px 80px;
+  padding: 105px 80px;
 }
 
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
+  padding: 0px 10px;
   background:white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  top: 0;
 }
 
 nav ul {
@@ -38,12 +39,14 @@ nav ul li a:hover {
 }
 
 .hero-text {
+  margin-top: 30px;
   max-width: 50%;
 }
 
 .hero-text h1 {
   font-size: 2.5rem;
 }
+
 
 .hero-text .highlight {
   color: red;
@@ -131,4 +134,28 @@ nav ul li a:hover {
 }
 .contact li {
   margin: 8px 0;
+}
+#home{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img{
+  width: 185px;
+  padding-top: 35px;
+}
+
+.hero-img img{
+  width: 200px;
+  height: 200px;
+}
+
+.prog progress{
+  width: 50%;
+  height: 20px;
+  animation:fillBar 5s forwards;
+}
+@keyframes fillBar{
+  from{width: 0%;}
+  to{width: 50%;}
 }
